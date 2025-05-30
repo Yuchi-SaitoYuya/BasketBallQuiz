@@ -111,6 +111,10 @@
                                     <action selector="btnActionWithSender:" destination="0dd-el-SGR" eventType="touchUpInside" id="EW6-Lc-u9i"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hUc-7q-q4H">
+                                <rect key="frame" x="9" y="48" width="374" height="374"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="v3Y-ot-nFM"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -120,6 +124,7 @@
                         <outlet property="answerButton2" destination="HoD-L6-GHZ" id="1GP-yb-ReD"/>
                         <outlet property="answerButton3" destination="2uH-HB-ucB" id="QVB-Bz-bDi"/>
                         <outlet property="answerButton4" destination="pQl-HP-IED" id="O6l-Tq-29E"/>
+                        <outlet property="judgeImageView" destination="hUc-7q-q4H" id="Se6-qX-pdK"/>
                         <outlet property="quizNumberLabel" destination="u2v-fT-BMk" id="GuH-5h-ilh"/>
                         <outlet property="quizTextView" destination="w38-ZT-piw" id="LO8-kC-kiY"/>
                         <segue destination="qB0-6f-FLt" kind="presentation" identifier="toScoreVC" id="7Nu-we-3Oi"/>
